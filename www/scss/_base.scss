@@ -1,0 +1,84 @@
+@import "ionic/ionic";
+
+a {
+  color:$fiprablue;
+  &:hover {
+    color:$blue;
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+.small-text {
+  font-size:0.8em;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.fiprablue {
+  color:$fiprablue;
+}
+.white {
+  color:$white;
+}
+.midgrey {
+  color:$midgrey;
+}
+.orange {
+  color:$orange;
+}
+.red {
+  color:$red;
+}
+.green {
+  color:$green;
+}
+
+.static-content {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  line-height:1.5;
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size:24px;
+    margin-bottom:24px;
+    color:$fiprablue;
+    background-color: $lightgrey;
+    padding:30px 20px 10px;
+  }
+
+  h2, h3, h4 {
+    padding:0 20px 0px 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom:24px;
+  }
+  h2 {
+    font-size:20px;
+  }
+
+  h3 {
+    font-size:18px;
+  }
+
+  h4 {
+    font-size:16px;
+  }
+
+  p {
+    padding:0 20px;
+    margin-bottom:24px;
+  }
+
+  ul {
+    list-style: square;
+    padding:0 40px;
+    li:last-child {
+      margin-bottom:24px;
+    }
+  }
+}

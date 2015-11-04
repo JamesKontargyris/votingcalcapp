@@ -1,0 +1,19 @@
+<nav id="what-nav">
+	<ul>
+		<li ng-repeat="page in pages">
+            <a ng-click="showSlide($index)" class="{{$index === currentSlide ? 'current' : '' }}">{{page.link}}</a>
+        </li>
+	</ul>
+</nav>
+
+<ion-content scroll="true" padding="false" id="what-page" animation="slide-left-right-ios7">
+
+	<ion-slide-box on-slide-changed="slideChanged(index)">
+
+		<ion-slide ng-repeat="page in pages">
+			<div ng-include src="page.template"></div>
+		</ion-slide>
+
+	</ion-slide-box>
+
+</ion-content>

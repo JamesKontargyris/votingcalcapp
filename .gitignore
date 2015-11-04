@@ -1,0 +1,19 @@
+# System
+.DS_Store
+Thumbs.db
+.Trashes
+._*
+Icon
+.AppleDouble
+.LSOverride
+
+# Editors 
+.idea
+*.sublime-*
+
+www/.sass-cache/*
+
+my-release-key.keystore
+
+node_modules
+platforms

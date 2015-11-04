@@ -1,0 +1,115 @@
+//header
+.menu-bar {
+  background-color: lighten(desaturate($fiprablue, 30%),10%) !important;
+  border-bottom:0;
+}
+
+.sidebar-menu {
+  background-color: lighten(desaturate($fiprablue, 30%),10%) !important;
+}
+.list {
+  margin-top:5px;
+  .item {
+    border-top:1px solid lighten(desaturate($fiprablue, 30%),10%) !important;
+    &:last-child {
+      border-bottom:1px solid lighten(desaturate($fiprablue, 30%),10%) !important;
+    }
+
+  }
+  a {
+    position:relative;
+    color:$white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    font-weight: 300;
+    background-color: lighten(desaturate($fiprablue, 40%),20%) !important;
+    padding:20px 10px !important;
+    i {
+      position:absolute;
+      top: 50%;
+      right:20px;
+      transform: translateY(-50%);
+    }
+
+    &:hover {
+      background-color: lighten(desaturate($fiprablue, 30%),10%) !important;
+    }
+  }
+}
+
+.calculator-header-buttons {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 99999;
+  width: 150px;
+  color: white !important;
+  .button-icon .icon:before, .button-icon.icon:before {
+    font-size: 26px !important;
+  }
+}
+
+.bar .button.button-icon .icon.ion-chevron-left:before, .bar .button.button-icon .icon.ion-close:before {
+  font-size: 18px;
+}
+
+.bar {
+  .bar-dark {
+    position:relative;
+    background-color: $fiprablue !important;
+  }
+  .title {
+    height: auto !important;
+    position: absolute;
+    z-index: 0;
+    top: 12px;
+    font-family: 'Oswald Light', sans-serif !important;
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding-top: 0;
+    padding-left: 10px;
+    text-align: left !important;
+    margin: 0;
+    overflow: inherit;
+    white-space: initial;
+    text-overflow: initial;
+    @media all and (max-width:759px) {
+      font-size: 16px !important;
+      span {
+        display:none;
+      }
+    }
+  }
+
+  &.bar-footer {
+    height: 130px;
+    padding: 0;
+    h1 {
+      display: none;
+    }
+  }
+}
+
+.bar-subheader {
+  background-color: $lightgrey !important;
+  h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: $lightgrey !important;
+    padding:15px 20px 10px !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-size:24px !important;
+    margin-bottom:24px !important;
+    color:$fiprablue !important;
+  }
+}
+
+.static-content.has-subheader {
+  position: absolute;
+}
+
+#what-page {
+  margin-top: 45px;
+}

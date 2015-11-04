@@ -1,0 +1,72 @@
+<div class="buttons calculator-header-buttons">
+    <button class="button button-icon" ng-click="toggleCalc()">
+        <i ng-class="{'icon ion-android-globe': !newSystem, 'icon ion-android-checkbox-outline': newSystem}" title="Change Voting System"></i>
+    </button>
+    <button class="button button-icon" ng-click="reset()">
+        <i class="icon ion-arrow-return-left" title="Reset Votes"></i>
+    </button>
+    <button class="button button-icon" ng-click="help()">
+        <i class="icon ion-help-circled" title="Help"></i>
+    </button>
+</div>
+
+<ion-content scroll="true" class="country-row-container">
+	<div class="row country-row {{member.vote}}" ng-repeat="member in members.members|orderBy:'population':true" ng-model="member.vote" ng-click="updateChecked(member)">
+		<div class="col-flag">
+			<img src="img/flags/{{member.image}}">
+		</div>
+		<div class="col-details">
+            <div class="content">
+                <h1><img src="img/flags/{{member.image}}"> {{member.name}}</h1>
+                <p>{{member.typeResult}} {{members.result.type}}</p>
+            </div>
+		</div>
+		<div class="col-button">
+			<button class="{{member.cssClass}}">
+                <span>{{member.vote}}</span>
+            </button>
+		</div>
+	</div>
+</ion-content>
+
+<ion-footer-bar align-title="left" ng-model="members.result" id="result">
+
+    <div class="row responsive-sm">
+        <div class="col col-50 {{members.result.result_bg}}">
+            <div class="result-title-container col col-middle">
+                <div class="result-title">
+                    <span>Result: </span><strong>{{members.result.title}}</strong>
+                </div>
+            </div>
+        </div>
+        <div class="col col-50">
+            <table>
+                <thead>
+                <tr>
+                    <td width="10%"></td>
+                    <td width="45%">{{members.result.typeTitle}}</td>
+                    <td width="45%">States</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="yes"><i class="fa fa-lg fa-check"></i></td>
+                    <td>{{members.result.yesResult}}</td>
+                    <td>{{members.result.yesResultCount}}</td>
+                </tr>
+                <tr>
+                    <td class="no"><i class="fa fa-lg fa-times"></i></td>
+                    <td>{{members.result.noResult}}</td>
+                    <td>{{members.result.noResultCount}}</td>
+                </tr>
+                <tr>
+                    <td class="abstain"><i class="fa fa-lg fa-minus"></i></td>
+                    <td>{{members.result.abstainResult}}</td>
+                    <td>{{members.result.abstainResultCount}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</ion-footer-bar>

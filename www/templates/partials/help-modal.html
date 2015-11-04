@@ -1,0 +1,38 @@
+<ion-modal-view ng-click="close()">
+	<ion-header-bar class="title-dark">
+	  <h1 class="title white">Calculator Information</h1>
+        <button class="button button-icon" ng-click="close()">
+            <i class="icon ion-close white" title="Close"></i>
+        </button>
+	</ion-header-bar>
+	<ion-content>
+        <div class="static-content">
+            <h1>How to use the calculator</h1>
+            <p>Tap a country row to toggle its voting preference between "Yes", "No" and "Abstain".</p>
+            <p>Changing voting preferences will update the table at the bottom of your screen. The result box will reflect the overall voting pattern, stating whether country votes result in a "qualified majority", "blocking minority" or "rejected" result.</p>
+            <p>Tap the <i class="icon ion-android-checkbox-outline" style="font-size:24px"></i> / <i class="icon ion-android-globe" style="font-size:24px"></i> icon to toggle between country population and country votes calculations.</p>
+            <p>Country population is used in the post-November 2014 Council voting rules. Country votes are used in the old Council voting rules (which were in force until 31 October 2014). See below for further details.</p>
+
+            <h1>The Council Voting Rules</h1>
+            <h2 class="text-upper">As from 1 November 2014</h2>
+            <h3>Ordinary legislative procedure</h3>
+            <p>
+                A <strong class="green">qualified majority</strong> is at least:
+                <ul>
+                    <li><strong>55%</strong> of the participating members of the Council <em class="small-text">(for a non-Commission proposal, at least 72% of the members of the Council are needed)</em>, and</li>
+                    <li><strong>65%</strong> of the population of the participating Member States.</li>
+                </ul>
+            </p>
+
+            <p>
+                A <strong class="red">blocking minority</strong> is at least:
+                <ul>
+                    <li><strong>4</strong> Member States, and</li>
+                    <li><strong>35%</strong> of the population of the participating Member States.</li>
+                </ul>
+            </p>
+
+            <p>Between <strong>1 November 2014</strong> and <strong>31 March 2017</strong> a member of the Council may request that an act is adopted in accordance with the previous qualified majority rules (which were in force until 31 October 2014).</p>
+        </div>
+	</ion-content>
+</ion-modal-view>
