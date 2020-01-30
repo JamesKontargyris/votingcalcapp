@@ -13,200 +13,201 @@ angular.module('fipra.factory', [])
         {
           name : "Austria",
           image : "austria.png",
-          population : 1.66,
+          population : 2.0,
           votes : 10,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Belgium",
           image : "belgium.png",
-          population : 2.17,
+          population : 2.6,
           votes : 12,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Bulgaria",
           image : "bulgaria.png",
-          population : 1.44,
+          population : 1.6,
           votes : 10,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Croatia",
           image : "croatia.png",
-          population : 0.86,
+          population : 0.9,
           votes :  7,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Cyprus",
           image : "cyprus.png",
-          population : 0.16,
+          population : 0.2,
           votes :  4,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Czech Rep.",
           image : "czech-republic.png",
-          population : 2.06,
+          population : 2.3,
           votes : 12,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Denmark",
           image : "denmark.png",
-          population : 1.09,
+          population : 1.3,
           votes :  7,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Estonia",
           image : "estonia.png",
-          population : 0.26,
+          population : 0.3,
           votes :  4,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Finland",
           image : "finland.png",
-          population : 1.06,
+          population : 1.2,
           votes :  7,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "France",
           image : "france.png",
-          population : 12.87,
+          population : 15.0,
           votes : 29,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Germany",
           image : "germany.png",
-          population : 16.10,
+          population : 18.5,
           votes : 29,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Greece",
           image : "greece.png",
-          population : 2.22,
+          population : 2.4,
           votes : 12,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Hungary",
           image : "hungary.png",
-          population : 1.95,
+          population : 2.3,
           votes : 12,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Ireland",
           image : "ireland.png",
-          population : 0.90,
+          population : 1.0,
           votes :  7,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Italy",
           image : "italy.png",
-          population : 11.97,
+          population : 13.7,
           votes : 29,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Latvia",
           image : "latvia.png",
-          population :  0.41,
+          population :  0.4,
           votes :  4,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
          },{
           name : "Lithuania",
           image : "lithuania.png",
-          population : 0.59,
+          population : 0.6,
           votes :  7,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Luxembourg",
           image : "luxembourg.png",
-          population : 0.10,
+          population : 0.1,
           votes :  4,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Malta",
           image : "malta.png",
-          population : 0.08,
+          population : 0.1,
           votes :  3,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Netherlands",
           image : "netherlands.png",
-          population : 3.29,
+          population : 3.9,
           votes : 13,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Poland",
           image : "poland.png",
-          population : 7.58,
+          population : 8.5,
           votes : 27,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Portugal",
           image : "portugal.png",
-          population : 2.07,
+          population : 2.3,
           votes : 12,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Romania",
           image : "romania.png",
-          population : 4.20,
+          population : 4.4,
           votes : 14,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Slovakia",
           image : "slovakia.png",
-          population : 1.07,
+          population : 1.2,
           votes :  7,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Slovenia",
           image : "slovenia.png",
-          population : 0.40,
+          population : 0.5,
           votes :  4,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Spain",
           image : "spain.png",
-          population : 9.09,
+          population : 10.4,
           votes : 27,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
         },{
           name : "Sweden",
           image : "sweden.png",
-          population : 1.86,
+          population : 2.2,
           votes : 10,
           vote : order[2],
           cssClass : cssClass[2] + " " + "button icon abstain"
-        },{
-          name : "UK",
-          image : "united-kingdom.png",
-          population : 12.39,
-          votes : 29,
-          vote : order[2],
-          cssClass : cssClass[2] + " " + "button icon abstain"
-         }
+        }
+        // ,{
+        //   name : "UK",
+        //   image : "united-kingdom.png",
+        //   population : 12.39,
+        //   votes : 29,
+        //   vote : order[2],
+        //   cssClass : cssClass[2] + " " + "button icon abstain"
+        //  }
       ],
       result = {
         title : "Rejected",
@@ -318,7 +319,7 @@ angular.module('fipra.factory', [])
         result.noPopulation = Math.round(noPopulation).toFixed(1);
         result.abstainPopulation = Math.round(abstainPopulation);
 
-        //% of memnbers
+        //% of members
         result.participatingYesPercent = Math.ceil(participatingYesPercent);
         result.participatingNoPercent = Math.ceil(participatingNoPercent);
         result.participatingAbstainPercent = Math.ceil(participatingAbstainPercent);
